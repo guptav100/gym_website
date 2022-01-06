@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle And Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset*/
+    body{
+        font-family: 'Baloo Bhai',cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/fitness-594143__180.webp');
+        background-size: 100%;
+        image-resolution: 1040px;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+    }
+    .left img{
+        width: 150px;
+        filter: invert(100%);
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+         color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhai',cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color:black;
+        padding: 3px 4px;
+        border: 2px solid red;
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(194, 192, 62);
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }.form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class = "left">
+          <div>Muscle And Fitness</div>
+          <img src="img/website logo.webp " alt="">
+        </div>
+        <!--mid box for navbar-->
+        <div class = "mid">
+            <ul class ="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">fee structure</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+         <!--right box for button-->
+        <div class = "right">
+            <button class ="btn">call us</button>
+    <button class="btn">Email us</button>
+        </div>
+    
+    </header>
+    <div class="container">
+        Join The Best Gym of Delhi.
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
